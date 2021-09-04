@@ -6,5 +6,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'gorev-yonetici';
+  user = 'Beliz';
+  
+  
+  items=  [
+    {description: "kahvaltı", action: "hayır" },
+    {description: "spor", action: "hayır" },
+    {description: "ödev", action: "hayır" },
+    {description: "sinema", action: "hayır" }
+
+  ];
+  
 }
